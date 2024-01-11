@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <main className="flex h-screen flex-col items-center justify-center gap-5">
       <div className="flex items-center gap-4">
-        <Image src={logo} alt="hushh ai logo" width={100} height={100} />
+        <Image src={logo} alt="hushh ai logo" width={200} height={200} />
         <span className="text-4xl font-extrabold tracking-tight lg:text-5xl">
-          hushh.ai note taking app
+          .ai
         </span>
       </div>
       <p className="max-w-prose text-center">

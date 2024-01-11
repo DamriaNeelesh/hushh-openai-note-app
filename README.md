@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**HUSHH.ai: AI Bot Note taking application project
+Tech Stakc used : Nextjs, ChatGPT Api, Tailwind CSS, Vector Embeddings, Shadcn UI, TypeScript**
+
+**Features:**
+- AI chat with response streaming using the Vercel AI SDK (useChat, StreamingTextResponse, OpenAIStream) and API route handlers
+- Intelligent document retrieval using ChatGPT vector embeddings and Pinecone
+- Light & dark theme toggle using next-themes
+- User authentication with Clerk
+- Create, update, and delete notes using Prisma and MongoDB Atlas
+- Nested layouts
+- Form & backend validation using Zod, React-Hook-Form, and Shadcn UI Form
+- Fully mobile-responsive layout using TailwindCSS modifiers
 
 ## Getting Started
 

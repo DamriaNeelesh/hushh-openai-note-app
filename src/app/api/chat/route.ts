@@ -33,12 +33,12 @@ export async function POST(req: Request) {
     });
 
     const systemMessage: ChatCompletionMessage = {
-      role: "assistant",
+      role: "assistant" || "system",
       content:
         "You are an intelligent note-taking app. You answer the user's question based on their existing notes. " +
         "The relevant notes for this query are:\n" +
         relevantNotes
-          .map((note: { title: string; content: string }) => `Title: ${note.title}\n\nContent:\n${note.content}`)
+          .map((note) => `Title: ${note.title}\n\nContent:\n${note.content}`)
           .join("\n\n"),
     };
 

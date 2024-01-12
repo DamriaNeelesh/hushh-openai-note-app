@@ -29,7 +29,7 @@ export async function POST(req: Request) {
 
     const embedding = await getEmbeddingForNote(title, content);
 
-    const note = await prisma.$transaction<any>(async (tx) => {
+    const note = await prisma.$transaction(async (tx) => {
       const note = await tx.note.create({
         data: {
           title,

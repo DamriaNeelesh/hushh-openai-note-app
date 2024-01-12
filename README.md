@@ -1,5 +1,5 @@
-**HUSHH.ai: AI Bot Note taking application project
-Tech Stakc used : Nextjs, ChatGPT Api, Tailwind CSS, Vector Embeddings, Shadcn UI, TypeScript, MondoDB**
+# HUSHH Assignment - OpenAI ChatBot Note-taking application project
+**Tech Stack used** : Nextjs, ChatGPT Api, Tailwind CSS, Vector Embeddings, Shadcn UI, TypeScript, MondoDB
 
 ## Features
 * AI-Powered Chatbot: Engage in real-time conversations with our AI chatbot, ask questions about your notes, and receive insightful answers.

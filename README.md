@@ -1,16 +1,48 @@
 **HUSHH.ai: AI Bot Note taking application project
 Tech Stakc used : Nextjs, ChatGPT Api, Tailwind CSS, Vector Embeddings, Shadcn UI, TypeScript, MondoDB**
 
-**Features:**
-- AI chat with response streaming using the Vercel AI SDK (useChat, StreamingTextResponse, OpenAIStream) and API route handlers
-- Intelligent document retrieval using ChatGPT vector embeddings and Pinecone
-- Light & dark theme toggle using next-themes
-- User authentication with Clerk
-- Create, update, and delete notes using Prisma and MongoDB Atlas
-- Nested layouts
-- Form & backend validation using Zod, React-Hook-Form, and Shadcn UI Form
-- Fully mobile-responsive layout using TailwindCSS modifiers
-- MondoDb Database for backend setup
+## Features
+* AI-Powered Chatbot: Engage in real-time conversations with our AI chatbot, ask questions about your notes, and receive insightful answers.
+
+* Intelligent Document Retrieval: Seamlessly retrieve relevant documents and notes using ChatGPT vector embeddings and Pinecone.
+
+* Personalized User Experience: Switch between light and dark themes for optimal viewing comfort with our next-themes integration.
+
+* Secure User Authentication: Protect your notes with Clerk's robust authentication system, ensuring only authorized users can access your information.
+
+* CRUD Operations for Notes: Create, update, and delete notes effortlessly using Prisma and MongoDB Atlas, maintaining a well-organized note-taking system.
+
+* Organized Layouts: Navigate through structured and intuitive layouts, thanks to our nested layouts implementation.
+
+* Comprehensive Form Validation: Validate form inputs both client-side and server-side with Zod, React-Hook-Form, and Shadcn UI Form, ensuring data integrity.
+
+* Fully Responsive Design: Experience a seamless user experience across all devices with our TailwindCSS modifiers, ensuring the app adapts perfectly to any screen size.
+
+
+## Technology Stack
+* Next.js 14: A modern React framework for building server-side rendered applications.
+
+* ChatGPT API: Leverage the power of ChatGPT to generate human-quality text, translate languages, write different kinds of creative content, and answer your questions in an informative way.
+
+* Vector Embeddings: Represent text documents as vectors in a high-dimensional space, enabling efficient similarity searches and document retrieval.
+
+* Pinecone: A scalable vector similarity search engine for rapid and accurate document retrieval.
+
+* TailwindCSS: A utility-first CSS framework for building responsive and customizable user interfaces.
+
+* Shadcn UI: A collection of React components for building beautiful and accessible user interfaces.
+
+* TypeScript: A superset of JavaScript that adds type annotations, ensuring code reliability and maintainability.
+
+* Vercel AI SDK: A suite of tools for integrating AI capabilities into your Next.js applications.
+
+* API Route Handlers: Create and handle API routes to communicate with your application's backend.
+
+* Clerk: A user authentication and authorization platform for securing your application.
+
+* Prisma: A powerful data modeling and manipulation tool for interacting with your database.
+
+* MongoDB Atlas: A cloud-based NoSQL database for storing your notes and application data.
 
 ## Getting Started
 

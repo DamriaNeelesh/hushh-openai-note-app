@@ -7,6 +7,7 @@ import {
   updateNoteSchema,
 } from "@/lib/validation/note";
 import { auth } from "@clerk/nextjs";
+import { Note } from "@prisma/client";
 
 export async function POST(req: Request) {
   try {
@@ -29,7 +30,7 @@ export async function POST(req: Request) {
 
     const embedding = await getEmbeddingForNote(title, content);
 
-    const note = await prisma.$transaction(async (tx) => {
+    const note = await prisma.$transaction<Note | null>(async (tx) => {
       const note = await tx.note.create({
         data: {
           title,

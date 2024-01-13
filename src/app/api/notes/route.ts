@@ -7,6 +7,7 @@ import {
   updateNoteSchema,
 } from "@/lib/validation/note";
 import { auth } from "@clerk/nextjs";
+export const runtime = 'edge';
 
 export async function POST(req: Request) {
   try {

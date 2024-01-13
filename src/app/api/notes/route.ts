@@ -8,6 +8,14 @@ import {
 } from "@/lib/validation/note";
 import { auth } from "@clerk/nextjs";
 
+export const runtime = 'edge';
+export const dynamic = 'auto';
+export const dynamicParams = true;
+export const revalidate = false;
+export const fetchCache = 'auto';
+export const preferredRegion = 'auto';
+export const maxDuration = 5;
+
 export async function POST(req: Request) {
   try {
     const body = await req.json();

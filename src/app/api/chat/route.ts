@@ -5,7 +5,7 @@ import { auth } from "@clerk/nextjs";
 import { OpenAIStream, StreamingTextResponse } from "ai";
 import { ChatCompletionMessage } from "openai/resources/index.mjs";
 
-export const runtime = 'edge';
+export const maxDuration = 300;
 
 export async function POST(req: Request) {
   try {

@@ -7,7 +7,8 @@ import {
   updateNoteSchema,
 } from "@/lib/validation/note";
 import { auth } from "@clerk/nextjs";
-export const runtime = 'edge';
+
+export const maxDuration = 300;
 
 export async function POST(req: Request) {
   try {

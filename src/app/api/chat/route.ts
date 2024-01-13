@@ -5,14 +5,6 @@ import { auth } from "@clerk/nextjs";
 import { OpenAIStream, StreamingTextResponse } from "ai";
 import { ChatCompletionMessage } from "openai/resources/index.mjs";
 
-export const runtime = 'edge';
-export const dynamic = 'auto';
-export const dynamicParams = true;
-export const revalidate = false;
-export const fetchCache = 'auto';
-export const preferredRegion = 'auto';
-export const maxDuration = 5;
-
 export async function POST(req: Request) {
   try {
     const body = await req.json();

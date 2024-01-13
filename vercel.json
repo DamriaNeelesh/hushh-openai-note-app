@@ -1,4 +1,12 @@
 {
     "buildCommand": "next build",
-    "devCommand": "next dev"
+    "devCommand": "next dev",
+    "functions": {
+        "api/notes/*": {
+          "maxDuration": 60
+        },
+        "api/chat/*": {
+          "maxDuration": 90
+        }
+      }
 }

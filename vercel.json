@@ -1,6 +1,4 @@
 {
     "buildCommand": "next build",
-    "devCommand": "next dev",
-    "maxDuration": 60
-
+    "devCommand": "next dev"
 }

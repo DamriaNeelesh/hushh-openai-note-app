@@ -1,9 +1,4 @@
 {
     "buildCommand": "next build",
-    "devCommand": "next dev",
-    "functions": {
-        "api/notes/*": {
-          "maxDuration": 10 
-        }
-      }
+    "devCommand": "next dev"
 }

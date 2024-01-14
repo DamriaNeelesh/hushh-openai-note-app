@@ -7,8 +7,8 @@ if (!apiKey) {
 }
 
 const pinecone = new Pinecone({
-  environment: "gcp-starter",
-  apiKey,
+     environment: "gcp-starter",
+     apiKey:apiKey,
 });
 
 export const notesIndex = pinecone.Index("hushh-ai-note-app");

@@ -3,7 +3,7 @@
     "devCommand": "next dev",
     "functions": {
         "api/notes/*": {
-          "maxDuration": 60 
+          "maxDuration": 10 
         }
       }
 }
